@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="refresh" content="0; url=about:blank">
-  <script>
-    const gifs = [
-      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamhycnp4NTBoeGVqZmRpeWpsMGQ5cWFyMnJwZGo4ZTB1dG9sYjUyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0MYC0LajbaPoEADu/giphy.gif",
-      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDI5YzZwNWo4NXVmcnJobXN4ZWc4aWZzODJxNHU5eXloZzN4eTY1biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VUOMN3AJbxSeY/giphy.gif",
-      "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjN1Nmd3bzA4and4cTR5ejNkYjFhOHV3ZDZudGtuNGNqaWprMmR0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4JyOCNEfXvVYEqB2/giphy.gif",
-      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bXk0eWd2cGV5eWZobWlheHF2OTk1bGNtZ3JoYTVhZ2V6bjJ4dTNjeSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/Ztfno2Qtm2dVxS81f5/giphy.gif",
-      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bXk0eWd2cGV5eWZobWlheHF2OTk1bGNtZ3JoYTVhZ2V6bjJ4dTNjeSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/l4hLJOFXdPL1zLS9y/giphy.gif",
-      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aGo0eTA4b3Vra3d2aGpsb3pxajRhbTN3ZTlxbmljbGo1N2lkMmtjYiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/3o72EWpXXrrFvEsZPO/giphy.gif",
-      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aGo0eTA4b3Vra3d2aGpsb3pxajRhbTN3ZTlxbmljbGo1N2lkMmtjYiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/EUZhgJ7Sp2SnGV9oQa/giphy.gif",
-      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dzd1ZGNxOG1tcHBxbHYyc240eGxvMDJrMjUzMjBkYm5qNW1leTVhayZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/yv3OhWkCvV8hoNdtIP/giphy.gif",
-      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MnpkamlvbHdiaTdibTVhcW5pODgyODVieXJreDgxbGVkemxhcnh5OCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/gVlgj80ZLp9yo/giphy.gif",
-      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3a2dwNGJkM3FteXFoN3VzYW50aDJjcnhmeWpoZmRtaWI1YWVjN2NqYyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif"
-    ];
-    const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
-    window.location.href = randomGif;
-  </script>
-</head>
-<body>
-Redirecting...
-</body>
+  <head>
+    <title>Random GIF</title>
+    <script>
+      const gifs = [
+        "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamhycnp4NTBoeGVqZmRpeWpsMGQ5cWFyMnJwZGo4ZTB1dG9sYjUyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0MYC0LajbaPoEADu/giphy.gif",
+        "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDI5YzZwNWo4NXVmcnJobXN4ZWc4aWZzODJxNHU5eXloZzN4eTY1biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VUOMN3AJbxSeY/giphy.gif",
+        "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjN1Nmd3bzA4and4cTR5ejNkYjFhOHV3ZDZudGtuNGNqaWprMmR0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4JyOCNEfXvVYEqB2/giphy.gif",
+        "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bXk0eWd2cGV5eWZobWlheHF2OTk1bGNtZ3JoYTVhZ2V6bjJ4dTNjeSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/Ztfno2Qtm2dVxS81f5/giphy.gif",
+        "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bXk0eWd2cGV5eWZobWlheHF2OTk1bGNtZ3JoYTVhZ2V6bjJ4dTNjeSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/l4hLJOFXdPL1zLS9y/giphy.gif",
+        "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aGo0eTA4b3Vra3d2aGpsb3pxajRhbTN3ZTlxbmljbGo1N2lkMmtjYiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/3o72EWpXXrrFvEsZPO/giphy.gif",
+        "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aGo0eTA4b3Vra3d2aGpsb3pxajRhbTN3ZTlxbmljbGo1N2lkMmtjYiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/EUZhgJ7Sp2SnGV9oQa/giphy.gif",
+        "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dzd1ZGNxOG1tcHBxbHYyc240eGxvMDJrMjUzMjBkYm5qNW1leTVhayZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/yv3OhWkCvV8hoNdtIP/giphy.gif",
+        "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MnpkamlvbHdiaTdibTVhcW5pODgyODVieXJreDgxbGVkemxhcnh5OCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/gVlgj80ZLp9yo/giphy.gif",
+        "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3a2dwNGJkM3FteXFoN3VzYW50aDJjcnhmeWpoZmRtaWI1YWVjN2NqYyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif"
+      ];
+      const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
+      window.onload = () => {
+        document.getElementById("gif").src = randomGif;
+      };
+    </script>
+  </head>
+  <body>
+    <img id="gif" src="" alt="Random GIF" />
+  </body>
 </html>
